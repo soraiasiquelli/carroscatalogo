@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(255, 255, 255, 0.171);
+}
+section{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(45, 46, 46);
+    margin-top: 100px;
+  
+    margin-left:450px;
+    color: white;
+    border-radius: 20px;
+    
+}
+input{
+    display: inline;
+    width: 200px;
+    margin-left: 170px;
+    border: none;
+    width: 200px;
+    height: 25px;
+    box-shadow: 2px 5px 5px black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+   
+  
+}
+ .next{
+   background-color: rgb(0, 0, 0);
+   border-radius: none;
+   width: 120px;
+   margin-top: 20px;
+   margin-left: 250px;
+
+   
+}
+input:hover{
+    background-color: rgb(132, 150, 158);
+    transition: 1s;
+    transition-property: initial;
+    border-top-width: 120px;
+    width: 220px;
+    height: 30px;
+}
+.next:hover{
+    background-color: rgba(0, 0, 0, 0.548);
+    transition: 1s;
+    transition-property: initial;
+    border-top-width: 120px;
+    width: 170px;
+    height: 30px;
+    text-transform: uppercase;
+
+}
+::placeholder{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+form > p{
+    
+    margin-left: 150px;
+    margin-top: 30px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+form{
+    margin-top: 120px;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 102, 255);
+    text-shadow: 5px 5px 3px black;
+    padding: 20px;
+    
+}
+
+ .next{
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color:rgba(0, 0, 0, 0.24);
+    width: 100px;
+    height: 20px;
+    color: wheat;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#next:hover{
+    background-color: aliceblue;
+    transition: 1s;
+    width: 120px;
+    height: 30px;
+}
+
+/*WELCOME SECAO*/
+
+#welcome{
+    text-decoration: underline;
+    text-align: center;
+   box-shadow: 12px 12px 2px red;
+   border-radius: 20px;
+   height: 200px;
+}
+h1{
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    
+   
+}
+#title{
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    margin-left: 150px;
+}
+a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+}
